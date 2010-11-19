@@ -45,6 +45,7 @@ include (SetupDirectories)
 # Add source directories
 add_subdirectory (lib)
 add_subdirectory (examples)
+add_subdirectory (cuKinect)
 
 # Create an uninstall target
 configure_file(
